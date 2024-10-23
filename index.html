@@ -40,12 +40,22 @@
 		       background: rgba(0, 0, 0, 0.3);
 		       text-align: left;
 		   }
+		.responsive-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 	</style>
 </head>
 <body>
 	<div class="content-top">This is a place where you can put a header</div>
 	<div class="content">
-		<iframe id="video-gYFKFCbq allowfullscreen=" allowfullscreen"="" allow="autoplay; fullscreen;" controls="0" title="Spectrum video" src="https://player.vimeo.com/video/943716158?background=1&amp;dnt=1" class="embed-responsive-item" width="990" height="400"></iframe>
+		<div id="gYFKFCbq" class="responsive-video" data-id="gYFKFCbq" data-video-id="943716158" data-video-type="vimeo" aria-label="Play Spectrum video" data-video-title="Spectrum video" data-video-autoplay="1">
+
+		<div id="video-container-gYFKFCbq" class="video-container"><iframe id="video-gYFKFCbq allowfullscreen=" allowfullscreen"="" allow="autoplay; fullscreen;" controls="0" title="Spectrum video" src="https://player.vimeo.com/video/943716158?background=1&amp;dnt=1" class="embed-responsive-item" width="990" height="400"></iframe></div>
+		</div>
 	</div>	
 </body>
 </html>
